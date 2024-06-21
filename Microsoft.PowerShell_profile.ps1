@@ -5,7 +5,7 @@ function cleanerls{
 }
 
 function fixFormatXML {
-    curl $LSCustomFormatUrl >  $ModulePath\Terminal-Icons\0.5.0\Terminal-Icons.format.ps1xml
+    curl $LSCustomFormatUrl >  $ModulePath\Terminal-Icons\0.11.0\Terminal-Icons.format.ps1xml
 }
 
 function installPoShFuck {
@@ -69,5 +69,5 @@ catch {
 }
 
 
-New-Alias -Name ls -Value cleanerls -Force
+Set-Alias -Name ls -Value cleanerls -Option AllScope
 New-Alias -Name fixls -Value fixFormatXML
