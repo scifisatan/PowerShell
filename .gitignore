@@ -1,0 +1,9 @@
+*
+!images/*
+!CustomLSFormat.format.ps1xml
+!powershell.config.json
+!profile.ps1
+!Readme.md
+!terminalConfig.toml
+!Microsoft.PowerShell_profile.ps1
+!.gitignore
