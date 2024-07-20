@@ -1,5 +1,6 @@
 *
-!images/*
+!images/
+!images/**
 !CustomLSFormat.format.ps1xml
 !powershell.config.json
 !profile.ps1
